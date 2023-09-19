@@ -87,7 +87,7 @@ nav {
 
 .fading {
   font-family: monospace;
-  animation: fadeIn 7s;
+  animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
@@ -161,12 +161,12 @@ nav .fa {
     top: 6%;
     width: 100%;
     right: -200%;
-    text-align: right;
+    text-align: right; /* The change is made here */
     z-index: 2;
     transition: 0.5s;
   }
   .nav-links ul li a {
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
   nav .fa {
     display: block;
