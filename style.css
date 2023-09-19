@@ -151,6 +151,9 @@ nav .fa {
   nav {
     padding: 3% 5%;
   }
+  
+  /* For this part, probably some visual improvements are needed.
+  I changed the text align to the right so that it looks neater in my opinion */
   .nav-links {
     position: absolute;
     background: #2e2e2e;
@@ -158,7 +161,7 @@ nav .fa {
     top: 6%;
     width: 100%;
     right: -200%;
-    text-align: center;
+    text-align: right;
     z-index: 2;
     transition: 0.5s;
   }
