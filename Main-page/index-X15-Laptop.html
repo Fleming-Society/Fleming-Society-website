@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleming Society Website 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html">UCL Fleming Society</a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="nav-Links" style="display: block">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="annoucements.html">Announcements</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <div class="wrapper">
+            <div class="typewriter">
+              <h1>Welcome to Fleming Society.</h1>
+            </div>
+        </div>
+        <div class="wrapper2">
+            <div class="fading">
+              <h2>Electronics, Projects, Workshops and MORE...</h2>
+              <a href="" class="button1">Find out more!</a>
+            </div>
+
+    </section>
+    <script>
+        function showMenu() {
+            var navLinks = document.getElementById('nav-Links');
+            if (!navLinks.classList.contains('show')) { 
+                navLinks.style.right = "0";
+                navLinks.classList.add('show');
+            } else { 
+                navLinks.style.right = "-200%";
+                navLinks.classList.remove('show');
+            }
+        }
+
+    </script>
+</body>
+</html>

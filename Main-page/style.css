@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap");
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url('background.png');
-    background-position: center;
-    background-size: cover;
-    position: relative;
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("background.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 nav {
   background-color: #2e2e2e;
@@ -23,89 +23,89 @@ nav {
   top: 0; /* Add this line */
   z-index: 1000; /* Add this line */
 }
-.nav-logo a{
-    font-size: 2.3vh;
-    font-family: "Roboto Slab", serif;
-    text-decoration: none;
-    color: inherit;
+.nav-logo a {
+  font-size: 2.3vh;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: inherit;
 }
-.nav-links{
-    flex:   1;
-    text-align: right;
+.nav-links {
+  flex: 1;
+  text-align: right;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 20px;
-    position: relative;
-    font-family: "Roboto", sans-serif;
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
 }
 .nav-links ul li:hover {
-    color: #afcef0;
+  color: #afcef0;
 }
 
-.nav-links ul li a{
-    color: inherit;
-    text-decoration: none;
-    font-size: 2.2vh;
+.nav-links ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2.2vh;
 }
 
 .wrapper {
-    margin-top: 20vh;
-    margin-bottom: 11vh;
-    display: flex;
-    justify-content: center;
-  }
-  .wrapper2 {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-top: 5vh;
-  }
-  
-  .typewriter {
-    width: 40ch;
-    animation: typing 2s steps(42), blink 0.4s step-end 16 alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2.5px solid transparent;
-    line-height: 7vh;
-    font-family: monospace;
-    font-size: 4vh;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: black;
-    }
-  }
-  
-  .fading {
-    font-family: monospace;
-    animation: fadeIn 7s;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+  margin-top: 20vh;
+  margin-bottom: 11vh;
+  display: flex;
+  justify-content: center;
+}
+.wrapper2 {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 5vh;
+}
 
-h2{
-    padding-bottom: 3vh;
-    font-size: 2.5vh;
-    color: rgb(54, 54, 54);
+.typewriter {
+  width: 40ch;
+  animation: typing 2s steps(42), blink 0.4s step-end 16 alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2.5px solid transparent;
+  line-height: 7vh;
+  font-family: monospace;
+  font-size: 4vh;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: black;
+  }
+}
+
+.fading {
+  font-family: monospace;
+  animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  padding-bottom: 3vh;
+  font-size: 2.5vh;
+  color: rgb(54, 54, 54);
 }
 .button1 {
   display: inline-block;
@@ -119,20 +119,19 @@ h2{
   /* font-weight: bold; */
   margin-top: 5vh;
 }
-.button1:hover{
+.button1:hover {
   background: rgb(178, 178, 178);
   transition: 0.2s;
 }
-nav .fa{
+nav .fa {
   display: none;
-
 }
 
 .nav-links.show {
   right: 0;
 }
 
-@media(max-width: 700px){
+@media (max-width: 770px) { /*The purpose of changing this is to fold the navbar at the moment it cannot be displayed in a single line*/
   .typewriter {
     width: 30ch;
     animation: none;
@@ -147,35 +146,35 @@ nav .fa{
   .wrapper2 {
     padding-top: 0;
   }
-  h2{
+  h2 {
     padding-bottom: 1vh;
     font-size: 2.5vh;
     color: rgb(54, 54, 54);
   }
-  .nav-links ul li{
-    display:block;
+  .nav-links ul li {
+    display: block;
     padding-top: 10%;
   }
-  nav{
+  nav {
     padding: 3% 5%;
   }
-  .nav-links{
+  .nav-links {
     position: fixed;
     background: #2e2e2e;
     height: 100%;
-    top: 8.3%;
+    top: 6%; /*Need to play around with this part in the future*/
     width: 100%;
-    right:-200%;
-    text-align: center;
+    right: -200%;
+    text-align: right;
     z-index: 2;
     transition: right 0.5s;
   }
-  .nav-links ul li a{
+  .nav-links ul li a {
     font-size: 2.5vh;
-}
-  nav .fa{
-    display:block;
-    color:#fff;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
