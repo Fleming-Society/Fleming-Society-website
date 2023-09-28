@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fleming Society Website 2023</title>
+        <link rel="stylesheet" href="Bounty.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-logo">
+                    <a href="../Main-page/index.html">UCL Fleming Society</a>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                <div class="nav-links" id="nav-Links" style="display: block">
+                    <ul>
+                        <li><a href="../Main-page/index.html">Home</a></li>
+                        <li><a href="Bounty.html">Bounties</a></li>
+                        <li><a href="../Contacts/contacts.html">Contacts</a></li>
+                    </ul>
+                </div> 
+            </nav>
+            <div class="wrapper">
+                <img class="signwrap" src="./sign.png">
+            </div>
+            <div class="wrapper">
+                <h4>Bounty projects coming out on October 16th...</h4>
+                <div class="starswrap">
+                    <img class="starimg" src="./star.png">
+                    <img class="starimg" src="./star.png">
+                    <img class="starimg" src="./star.png">
+                </div>
+            </div>
+            <div class="wrappercard">
+                <div class="card">
+                   <!-- <img class="card-image" src="./kid.jpg">
+                   <h2>Project Name</h2>
+                   <h3>REWARD: £10 Amazon Voucher</h3> -->
+                </div>
+                <div class="card">
+                    
+                </div>
+                <div class="card">
+                    
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="starswrap">
+                    <img class="starimg" src="./star.png">
+                    <img class="starimg" src="./star.png">
+
+                </div>
+            </div>
+            <div class="wrappercard">
+                <div class="card">
+                   <img class="card-image" src="./kid.jpg">
+                   <h2>Project Name</h2>
+                   <h3>REWARD: £10 Amazon Voucher</h3>
+                </div>
+                <div class="card">
+                    
+                </div>
+                <div class="card">
+                    
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="starswrap">
+                    <img class="starimg" src="./star.png">
+                </div>
+            </div>
+            <div class="wrappercard">
+                <div class="card">
+                   <img class="card-image" src="./kid.jpg">
+                   <h2>Project Name</h2>
+                   <h3>REWARD: £10 Amazon Voucher</h3>
+                </div>
+                <div class="card">
+                    
+                </div>
+                <div class="card">
+                    
+                </div>
+            </div>
+        </section>
+        <script>
+            function showMenu() {
+                var navLinks = document.getElementById('nav-Links');
+                if (!navLinks.classList.contains('show')) { 
+                    navLinks.style.right = "0";
+                    navLinks.classList.add('show');
+                } else { 
+                    navLinks.style.right = "-200%";
+                    navLinks.classList.remove('show');
+                }
+            }
+        </script>
+    </body>
+</html>

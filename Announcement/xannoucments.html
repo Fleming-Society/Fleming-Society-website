@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fleming Society Website 2023</title>
+
+  <link rel="stylesheet" href="annnouncments.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="background_container" style="cursor:pointer; cursor: url(https://cdn.custom-cursor.com/128/assets/arrows/32/Overwatch_McCrees_Peacekeeper_Revolver.png) ,auto">
+
+  <section class="header">
+
+    <nav>
+
+      <div class="nav-logo">
+
+        <a href="index.html">UCL Fleming Society</a>
+
+      </div>
+
+      <div class="nav-links" id="nav-Links" style="display: block">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="annoucments.html">Announcements</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+    <!-- Tumbleweed animation START div -->
+    <div id="divfix">
+      <div id="image">
+        <marquee behavior="scroll" direction="right">
+          <img id="tumbleweed" src="tumblweed.png" alt="">
+        </marquee>
+      </div>
+    </div>
+    <!-- Tumbleweed animation END div -->
+
+    <u id="bounty1">
+      <img id="bountyimg" src="bounty.jpg" alt="">
+      <h3 id="rewardtxt">Reward here</h3>
+      <h4 id="projecttxt">Here you should put a quick description of the Project</h4>
+      <h4 id="linktxt" href="">Link to the project</h4>
+    </u>
+
+    <u id="bounty2">
+      <img id="bountyimg" src="bounty.jpg" alt="">
+      <h3 id="rewardtxt">Reward here</h3>
+      <h4 id="projecttxt">Here you should put a quick description of the Project</h4>
+      <h4 id="linktxt" href="">Link to the project</h4>
+    </u>
+
+
+  </section>
+  <script>
+    function showMenu() {
+        var navLinks = document.getElementById('nav-Links');
+        if (!navLinks.classList.contains('show')) { 
+            navLinks.style.right = "0";
+            navLinks.classList.add('show');
+        } else { 
+            navLinks.style.right = "-200%";
+            navLinks.classList.remove('show');
+        }
+    }
+
+</script>
+</body>
+
+</html>
