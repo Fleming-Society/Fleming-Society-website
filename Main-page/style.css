@@ -169,7 +169,7 @@ nav .fa{
     position: fixed;
     background: #2e2e2e;
     height: 100%;
-    top: 7%;
+    top: 50px;  /* changed this line, Junzhe Chen 27th Sept 2023*/
     width: 100%;
     right:-200%;
     text-align: center;
