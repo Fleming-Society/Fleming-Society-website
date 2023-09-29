@@ -81,6 +81,20 @@ p {
   color: #afcef0;
 }
 
+.mask {
+  text-align: center;
+  float: middle;
+  margin: 0 10px;
+  font-size: xx-small;
+  background-color: #252525;
+  color: #252525;
+  transition: color 0.5s;
+}
+
+.mask:hover {
+  color: #ffffff;
+}
+
 /* navbar */
 
 nav {
