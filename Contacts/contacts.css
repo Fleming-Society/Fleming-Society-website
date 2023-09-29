@@ -37,6 +37,15 @@ h3 {
   color: rgb(78, 78, 78);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 p {
   padding-top: 10px;
 }
@@ -53,13 +62,12 @@ p {
   display: inline-block;
   font-size: 30px;
   font-family: "Roboto Slab", serif;
-  text-align: center; /* Center the text horizontally */
+  text-align: center;
   border-width: 100px;
   border-bottom: #2e2e2e 1px solid;
-  padding: 10px 0; /* Add padding to separate the text from the borders */
-  width: 100%; /* Make sure the borders span the entire line */
+  padding: 10px 0;
+  width: 100%;
 }
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -86,14 +94,14 @@ p {
   float: middle;
   margin: 0 10px;
   font-size: xx-small;
-  background-color: #252525;
+  /* background-color: #252525;
   color: #252525;
-  transition: color 0.5s;
+  transition: color 0.5s; */
 }
 
-.mask:hover {
+/* .mask:hover {
   color: #ffffff;
-}
+} */
 
 /* navbar */
 
