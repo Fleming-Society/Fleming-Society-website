@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap");
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url('background.png');
-    background-position: center;
-    background-size: cover;
-    position: relative;
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("background.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 nav {
   background-color: #2e2e2e;
@@ -23,94 +23,69 @@ nav {
   top: 0; /* Add this line */
   z-index: 1000; /* Add this line */
 }
-.nav-logo a{
-    font-size: 2.3vh;
-    font-family: "Roboto Slab", serif;
-    text-decoration: none;
-    color: inherit;
-    z-index: 10000;
+.nav-logo a {
+  font-size: 2.3vh;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: inherit;
+  z-index: 10000;
 }
-.nav-links{
-    flex:   1;
-    text-align: right;
+.nav-links {
+  flex: 1;
+  text-align: right;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 20px;
-    position: relative;
-    font-family: "Roboto", sans-serif;
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
 }
 .nav-links ul li:hover {
-    color: #afcef0;
+  color: #afcef0;
 }
 
-.nav-links ul li a{
-    color: inherit;
-    text-decoration: none;
-    font-size: 2.2vh;
+.nav-links ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2.2vh;
 }
 
 .wrapper {
-    margin-top: 20vh;
-    margin-bottom: 11vh;
-    display: flex;
-    justify-content: center;
-  }
-  .wrapper2 {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-top: 5vh;
-  }
-  
-  .title {
-    width: 45ch;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2.5px solid transparent;
-    line-height: 4vh;
-    font-family: monospace;
-    font-size: 3vh;
-  }
- 
-.italicfont{
-  font-style:italic;
-  color: rgb(40, 4, 133);
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
 }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: black;
-    }
-  }
-  
-  .contents {
-    font-family: monospace;
-    text-align: left;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+.wrapper2 {
+  margin-top: 0;
+  display: flex;
+  margin: 5vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 5vh;
+}
 
-h2{
-    padding-bottom: 3vh;
-    font-size: 2.5vh;
-    color: rgb(54, 54, 54);
+.title {
+  width: 45ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2.5px solid transparent;
+  line-height: 4vh;
+  font-family: monospace;
+  font-size: 3vh;
+}
+
+.contents {
+  font-family: monospace;
+  text-align: left;
+}
+
+h2 {
+  padding-bottom: 3vh;
+  font-size: 2.5vh;
+  color: rgb(54, 54, 54);
 }
 .button1 {
   display: inline-block;
@@ -124,20 +99,19 @@ h2{
   /* font-weight: bold; */
   margin-top: 5vh;
 }
-.button1:hover{
+.button1:hover {
   background: rgb(178, 178, 178);
   transition: 0.2s;
 }
-nav .fa{
+nav .fa {
   display: none;
-
 }
 
 .nav-links.show {
   right: 0;
 }
 
-@media(max-width: 700px){
+@media (max-width: 700px) {
   .typewriter {
     width: 30ch;
     animation: none;
@@ -152,35 +126,35 @@ nav .fa{
   .wrapper2 {
     padding-top: 0;
   }
-  h2{
+  h2 {
     padding-bottom: 1vh;
     font-size: 2.5vh;
     color: rgb(54, 54, 54);
   }
-  .nav-links ul li{
-    display:block;
+  .nav-links ul li {
+    display: block;
     padding-top: 10%;
   }
-  nav{
+  nav {
     padding: 3% 5%;
   }
-  .nav-links{
+  .nav-links {
     position: fixed;
     background: #2e2e2e;
     height: 100%;
-    top: 48px;  /* changed this line, Junzhe Chen 27th Sept 2023*/
+    top: 48px; /* changed this line, Junzhe Chen 27th Sept 2023*/
     width: 100%;
-    right:-200%;
+    right: -200%;
     text-align: center;
     z-index: 2;
     transition: right 0.5s;
   }
-  .nav-links ul li a{
+  .nav-links ul li a {
     font-size: 2.5vh;
-}
-  nav .fa{
-    display:block;
-    color:#fff;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
