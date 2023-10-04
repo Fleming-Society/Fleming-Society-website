@@ -66,15 +66,14 @@ nav {
     padding-top: 5vh;
   }
   
-  .typewriter {
-    width: 40ch;
-    animation: typing 2s steps(42), blink 0.4s step-end 16 alternate;
+  .title {
+    width: 45ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2.5px solid transparent;
-    line-height: 7vh;
+    line-height: 4vh;
     font-family: monospace;
-    font-size: 4vh;
+    font-size: 3vh;
   }
  
 .italicfont{
@@ -94,9 +93,9 @@ nav {
     }
   }
   
-  .fading {
+  .contents {
     font-family: monospace;
-    animation: fadeIn 7s;
+    text-align: left;
   }
   
   @keyframes fadeIn {
