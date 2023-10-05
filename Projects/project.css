@@ -52,34 +52,58 @@ nav {
 }
 
 .wrapper {
-  margin-top: 15vh;
-  margin-bottom: 10vh;
+  margin-top: 20vh;
+  margin-bottom: 11vh;
+  margin-left: 30px;
+  /* margin-right: 30px; */
   display: flex;
   justify-content: center;
 }
 .wrapper2 {
   margin-top: 0;
+  margin-left: 20px;
   display: flex;
-  margin: 5vh;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   align-items: center;
   padding-top: 5vh;
 }
 
-.title {
-  width: 405h;
+.typewriter {
+  width: 45ch;
   white-space: nowrap;
-  /* overflow: hidden; */
+  overflow: hidden;
   border-right: 2.5px solid transparent;
-  line-height: 5vh;
+  line-height: 7vh;
   font-family: monospace;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
-.contents {
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: black;
+  }
+}
+
+.fading {
   font-family: monospace;
   text-align: left;
+  animation: fadeIn 0s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 h2 {
