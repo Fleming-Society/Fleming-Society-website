@@ -68,11 +68,11 @@ nav {
 }
 
 .title {
-  width: 45ch;
+  width: 405h;
   white-space: nowrap;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-right: 2.5px solid transparent;
-  line-height: 4vh;
+  line-height: 5vh;
   font-family: monospace;
   font-size: 3vh;
 }
