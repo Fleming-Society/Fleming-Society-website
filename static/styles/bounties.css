@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url('images/wood.jpg');
+    background-image: url('../images/backgrounds/background-wood.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -86,7 +86,7 @@ p{
     text-align: center;
     font-family: "Roboto Slab", serif;
     padding-bottom: 10px;
-    background-image: url('images/bounty.jpg');
+    background-image: url('../images/backgrounds/background-bounty.jpg');
     background-size: cover;
     background-position: center;
     width: 364px;
