@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
 .container-page {
     width: 100vw;
     height: 100vh;
@@ -14,6 +18,17 @@
 
     width: 100%;
     height: 90%;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0;
+
+    margin-right: 5%;
 }
 
 .title {
@@ -36,6 +51,7 @@
     align-items: center;
 
     height: 10%;
+    color: red;
 }
 
 .redirect {
