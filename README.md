@@ -1,4 +1,4 @@
-# Project Name Readme
+# Fleming Society Web Page
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Welcome to the **Your Project Name** codebase! This README is designed to help fellow developers understand key practices and guidelines for developing within this project. Please make sure to follow these guidelines to ensure consistency and efficiency in our codebase.
+Welcome to the Fleming Society web page codebase! This README is designed to help fellow developers understand key practices and guidelines for developing within this project. Please make sure to follow these guidelines to ensure consistency and efficiency in our codebase.
 
 ## Development Guidelines
 
@@ -22,8 +22,8 @@ Whenever possible, utilize Bootstrap to streamline the development process and m
 Example of including Bootstrap in your HTML file:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 ```
 
 Please make use of Bootstrap's CSS classes and components to maintain a cohesive and visually appealing user interface.
@@ -48,6 +48,6 @@ We welcome contributions from all developers to improve and enhance this project
 
 ## License
 
-This project is licensed under the Your License Name License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
-Thank you for contributing to Your Project Name! Happy coding!
+### Thank you for contributing to Your Project Name! Happy coding!
