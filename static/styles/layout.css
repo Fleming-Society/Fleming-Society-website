@@ -26,16 +26,16 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .navbar-nav {
     position: absolute;
     right: 0;
 
-    margin-right: 5%;
+    margin-right: 1%;
     padding: 0 4%;
-    background-color: #333741;
+    background-color: #2b3035;
     border-radius: 10px;
 }
 

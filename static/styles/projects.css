@@ -1,8 +1,24 @@
 .container-page {
-    height: 100vh;
+    height: 100%;
 }
 
 .projects {
     text-align: center;
     margin-top: 5%;
+}
+
+.project-id-column {
+    width: 100px;
+}
+
+.project-thumbnail-column {
+    width: 250px;
+}
+
+.project-title {
+    text-align: left;
+}
+
+.project-description {
+    text-align: left;
 }
