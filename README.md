@@ -50,4 +50,4 @@ We welcome contributions from all developers to improve and enhance this project
 
 This project is licensed under the MIT License.
 
-### Thank you for contributing to Your Project Name! Happy coding!
+### Thank you for contributing to the Fleming Society web page! Happy coding!
