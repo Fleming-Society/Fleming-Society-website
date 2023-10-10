@@ -1,24 +1,35 @@
 .container-page {
-    height: 100%;
+  height: 100%;
 }
 
 .projects {
-    text-align: center;
-    margin-top: 5%;
+  text-align: center;
+  margin-top: 5%;
 }
 
 .project-id-column {
-    width: 100px;
+  width: 100px;
 }
 
 .project-thumbnail-column {
-    width: 250px;
+  width: 250px;
 }
 
 .project-title {
-    text-align: left;
+  text-align: left;
 }
 
 .project-description {
-    text-align: left;
+  text-align: left;
 }
+
+/* .image-thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}  */
+
+/* I don't know if there is any selector for thumbnail image so just leave it here now.
+I add attribute on the html page in order to make everything fits */
+
