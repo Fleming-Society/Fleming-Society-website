@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fleming Society Website 2023</title>
+    <link rel="stylesheet" href="static/styles/executives.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="nav-logo">
+          <a href="index.html">UCL Fleming Society</a>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <div class="nav-links" id="nav-Links" style="display: block">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="bounties.html">Bounties</a></li>
+            <li><a href="executives.html">Executives</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="wrapper">
+        <h1>Our People</h1>
+      </div>
+
+      <div class="subtitle">
+        <p>Leads</p>
+      </div>
+
+      <div class="wrappercard">
+        <div class="card">
+          <img src="static/images/avatars/Junzhe.png" style="width: 100%" />
+          <h2>Junzhe Chen</h2>
+          <div class="mask" , title="你知道的太多了">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >高质量免费劳动力，点这里白嫖</a
+            >
+          </div>
+          <h3>President</h3>
+          <a href="https://www.linkedin.com/in/junzhe-chen/" class="link"
+            >Linkedin</a
+          >
+          <p>junzhe.chen.22@ucl.ac.uk</p>
+        </div>
+
+        <div class="card">
+          <img src="static/images/avatars/Jeremy.png" style="width: 100%" />
+          <h2>Jeremy Chan</h2>
+          <h3>Vice-President</h3>
+          <a href="https://www.linkedin.com/in/jeremy-cs-chan" class="link"
+            >Linkedin</a
+          >
+          <p>jeremy.chan.22@ucl.ac.uk</p>
+        </div>
+
+        <div class="subtitle">
+          <p>Marketing</p>
+        </div>
+
+        <div class="card">
+          <img src="static/images/avatars/bernardo2.jpeg" style="width: 100%" />
+          <h2>Bernardo Awtani</h2>
+          <h3>Social Media and Events Manager</h3>
+          <a
+            href="https://www.linkedin.com/in/luis-awtani-257251223/"
+            class="link"
+            >Linkedin</a
+          >
+          <p>luis.awtani.22@ucl.ac.uk</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="static/images/avatars/Joshua%20trimmed.png"
+            style="width: 100%"
+          />
+          <h2>Joshua Liao</h2>
+          <h3>Social Media and Events Manager</h3>
+          <a href="" class="link">Linkedin</a>
+          <p>juhua.liao.22@ucl.ac.uk</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="static/images/avatars/Sans.png"
+            style="width: 100%"
+          />
+          <h2>Chang (Sans) Xu</h2>
+          <h3>Photograph and Video Editor</h3>
+          <a href="" class="link">Linkedin</a>
+          <p>chang.xu.22@ucl.ac.uk</p>
+        </div>
+
+        <div class="subtitle">
+          <p>Projects</p>
+        </div>
+
+        <div class="card">
+          <img src="static/images/avatars/Steven.png" style="width: 100%" />
+          <h2>Yuxuan Han</h2>
+          <h3>Project Manager</h3>
+          <a href="https://www.linkedin.com/in/yuxuanhan" class="link"
+            >Linkedin</a
+          >
+          <p>yuxuan.han.22@ucl.ac.uk</p>
+        </div>
+        <div class="card">
+          <img src="static/images/avatars/Ziqi.jpg" style="width: 100%" />
+          <h2>Ziqi Zhang</h2>
+          <h3>Project and Outreach Manager</h3>
+          <a
+            href="https://www.linkedin.com/in/ziqi-zhang-305231224/"
+            class="link"
+            >Linkedin</a
+          >
+          <p>ziqi.zhang.21@ucl.ac.uk</p>
+        </div>
+        <div class="card" style="width: 125%">
+          <img src="static/images/avatars/Louis.jpg" style="width: 100%" />
+          <h2>Louis Kwok</h2>
+          <h3>Website Developer</h3>
+          <a
+            href="https://www.linkedin.com/in/louiskwok2004/"
+            class="link"
+            >Linkedin</a
+          >
+          <p>louis.kwok.22@ucl.ac.uk</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      function showMenu() {
+        var navLinks = document.getElementById("nav-Links");
+        if (!navLinks.classList.contains("show")) {
+          navLinks.style.right = "0";
+          navLinks.classList.add("show");
+        } else {
+          navLinks.style.right = "-200%";
+          navLinks.classList.remove("show");
+        }
+      }
+    </script>
+  </body>
+</html>

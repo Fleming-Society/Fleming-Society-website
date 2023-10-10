@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleming Society Website 2023</title>
+    <link rel="stylesheet" href="static/styles/projects.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html">UCL Fleming Society</a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="nav-Links" style="display: block">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="bounties.html">Bounties</a></li>
+                    <li><a href="executives.html">Executives</a></li>
+                </ul>
+            </div> 
+        </nav>
+        <div class="wrapper">
+            <div class="typewriter">
+              <h1>Fleming Society past project</h1>
+            </div>
+        </div>
+        <div class="wrapper2">
+            <div class="fading">
+                <h2>Breadboard obstacle avoidance car, made by Junzhe Chen. <a href="https://github.com/Fleming-Society/Breadboard-drone">Link </a></h2>
+                <h2>Microservo robotic arm, made by Jeremy Chan. <a href="https://github.com/Fleming-Society/Microservo-Robotic-Arm"> Link </a></h2>
+                <h2>7-segments display, Fleming Outreach project, <a href="https://github.com/Fleming-Society/7-Segment-Display-Project">Link</a></h2>
+                <a href="bounties.html" class="button1">Get rewarded while doing projects!</a>
+              </div>
+
+    </section>
+    <script>
+        function showMenu() {
+            var navLinks = document.getElementById('nav-Links');
+            if (!navLinks.classList.contains('show')) { 
+                navLinks.style.right = "0";
+                navLinks.classList.add('show');
+            } else { 
+                navLinks.style.right = "-200%";
+                navLinks.classList.remove('show');
+            }
+        }
+
+    </script>
+</body>
+</html>

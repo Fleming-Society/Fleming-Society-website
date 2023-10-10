@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container-page {
+    width: 100vw;
+    height: 100%;
+    background-image: url('../images/backgrounds/background-full-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0;
+
+    margin-right: 5%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    max-height: 42vh;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    max-height: 11vh;
+}
+
+.announcement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    max-height: 11vh;
+    color: red;
+}
+
+.redirect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    max-height: 11vh;
+}
