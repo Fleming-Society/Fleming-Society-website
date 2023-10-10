@@ -15,21 +15,20 @@
   width: 250px;
 }
 
+.project-thumbnail {
+  width: 150px;
+  height: auto;
+}
+
 .project-title {
   text-align: left;
+}
+
+.project-author {
+  padding-left: 10px;
 }
 
 .project-description {
   text-align: left;
 }
-
-/* .image-thumbnail {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}  */
-
-/* I don't know if there is any selector for thumbnail image so just leave it here now.
-I add attribute on the html page in order to make everything fits */
 
