@@ -40,6 +40,31 @@
 }
 
 .bounty-paper {
+    position: relative;
+
     width: 25%;
     margin: 1% 2%;
+    background-image: url('../images/elements/bounty-paper.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 12.5%;
+}
+
+.bounty-title {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20%;
+    width: 100%;
+    height: 20%;
+}
+
+.bounty-thumbnail {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 25%;
+    top: 0;
+    left: 0;
 }
