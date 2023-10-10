@@ -3,7 +3,7 @@ body {
 }
 
 .container-page {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-image: url('../images/backgrounds/background-full-page.png');
     background-size: cover;
@@ -14,10 +14,15 @@ body {
 .container-main {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     width: 100%;
-    height: 90%;
+    height: 100%;
+}
+
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar-brand {
@@ -33,30 +38,37 @@ body {
 
 .title {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    height: 20%;
-    
+    height: 300px;
+    max-height: 42vh;
 }
 
 .subtitle {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    height: 10%;
+    height: 80px;
+    max-height: 11vh;
 }
 
 .announcement {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    height: 10%;
+    height: 80px;
+    max-height: 11vh;
     color: red;
 }
 
 .redirect {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    height: 20%;
+    height: 80px;
+    max-height: 11vh;
 }

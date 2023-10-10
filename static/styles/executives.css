@@ -1,42 +1,3 @@
-body {
-    font-family: 'Roboto Slab', serif;
-}
-
-.container-page {
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/backgrounds/background-full-page.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.container-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    height: 90%;
-}
-
-.navbar-brand {
-    margin-left: 5%;
-}
-
-.navbar-nav {
-    position: absolute;
-    right: 0;
-
-    margin-right: 5%;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-
-    height: 20%;
-}
-
 .executive-class {
     width: 100%;
     text-align: center;
@@ -52,4 +13,22 @@ body {
     width: 15%;
     height: 20%;
     margin: 0 2% 2%;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-text {
+    color: black;
+    margin-left: 10px;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-next-text {
+    color: black;
+    margin-right: 10px;
 }

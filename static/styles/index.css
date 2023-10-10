@@ -1,62 +1,7 @@
-body {
-    font-family: 'Roboto Slab', serif;
-}
-
 .container-page {
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/backgrounds/background-full-page.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.container-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    height: 90%;
-}
-
-.navbar-brand {
-    margin-left: 5%;
-}
-
-.navbar-nav {
-    position: absolute;
-    right: 0;
-
-    margin-right: 5%;
+    height: 100vh;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-
-    height: 50%;
-    
-}
-
-.subtitle {
-    display: flex;
-    align-items: center;
-
-    height: 10%;
-}
-
-.announcement {
-    display: flex;
-    align-items: center;
-
-    height: 10%;
-    color: red;
-}
-
-.redirect {
-    display: flex;
-    align-items: center;
-
-    height: 20%;
+    margin-top: 5%;
 }

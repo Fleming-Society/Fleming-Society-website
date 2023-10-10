@@ -1,63 +1,4 @@
-body {
-    font-family: 'Roboto Slab', serif;
-}
-
-.container-page {
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/backgrounds/background-full-page.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.container-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    height: 90%;
-}
-
-.navbar-brand {
-    margin-left: 5%;
-}
-
-.navbar-nav {
-    position: absolute;
-    right: 0;
-
-    margin-right: 5%;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-
-    height: 20%;
-    
-}
-
-.subtitle {
-    display: flex;
-    align-items: center;
-
-    height: 10%;
-}
-
-.announcement {
-    display: flex;
-    align-items: center;
-
-    height: 10%;
-    color: red;
-}
-
 .bounty {
-    position: absolute;
-    bottom: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,21 +6,40 @@ body {
     width: 100%;
     height: 50%;
     background-image: url('../images/backgrounds/background-bounty.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bounty-banner {
     width: 213.8px;
     height: 53.2px;
-    margin: 2% 0;
+    margin: 1% 0;
 }
 
 .bounty-stars {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
 }
 
 .bounty-star {
-    width: 50px;
-    height: 50px;
+    width: 5%;
+    height: 5%;
+    margin: 1% 0;
+}
+
+.bounty-papers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.bounty-paper {
+    width: 25%;
+    margin: 1% 2%;
 }
