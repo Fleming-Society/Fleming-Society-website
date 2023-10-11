@@ -77,6 +77,7 @@ nav {
   line-height: 7vh;
   font-family: monospace;
   font-size: 4vh;
+  text-align: center;
 }
 
 @keyframes typing {
@@ -185,6 +186,15 @@ nav .fa {
   }
 }
 
+.table {
+  width: 100%;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 .project-id-column {
   width: 100px;
 }
@@ -193,19 +203,32 @@ nav .fa {
   width: 250px;
 }
 
+.project-thumbnail-container {
+  display: flex;
+  justify-content: center;
+}
+
 .project-thumbnail {
   width: 150px;
   height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-about {
+  border: none;
 }
 
 .project-title {
   text-align: left;
+  border: none;
 }
 
-.project-author {
-  padding-left: 10px;
+.project-title-text {
+  color: black;
 }
 
 .project-description {
   text-align: left;
+  border: none;
 }
