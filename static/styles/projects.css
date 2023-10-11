@@ -186,6 +186,14 @@ nav .fa {
   }
 }
 
+.redirect-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  margin-bottom: 40px;
+}
+
 .table {
   width: 100%;
   background-color: white;
