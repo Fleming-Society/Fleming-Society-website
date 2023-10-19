@@ -61,6 +61,7 @@ body {
     width: 27ch;
     font-size: 50px;
     animation: typewriter 2s steps(27), blink 0.4s step-end 16 alternate;
+    border-right: solid 2px transparent;
     white-space: nowrap;
     overflow: hidden;
 }
