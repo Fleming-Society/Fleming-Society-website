@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     height: 300px;
     max-height: 42vh;
@@ -64,6 +65,13 @@ body {
     border-right: solid 2px transparent;
     white-space: nowrap;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .typewriter {
+        white-space: wrap;
+        animation: none;
+    }
 }
 
 @keyframes typewriter {
