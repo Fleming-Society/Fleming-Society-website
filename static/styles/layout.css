@@ -53,6 +53,26 @@ body {
     max-height: 42vh;
 }
 
+.typewriter {
+    width: 27ch;
+    font-size: 50px;
+    animation: typing 2s steps(27), blink 0.4s step-end 16 alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+  
+@keyframes blink {
+    50% {
+        border-color: black;
+    }
+}
+
 .subtitle {
     display: flex;
     justify-content: center;
@@ -82,8 +102,13 @@ body {
 }
 
 .redirect-button {
-    background: rgb(235, 235, 235);
+    background: #EBEBEB;
     border: 1px solid black;
     height: 50px;
     width: 200px;
+}
+
+.redirect-button:hover {
+    background: #B2B2B2;
+    cursor: pointer;
 }
