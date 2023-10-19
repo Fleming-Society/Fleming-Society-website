@@ -56,12 +56,12 @@ body {
 .typewriter {
     width: 27ch;
     font-size: 50px;
-    animation: typing 2s steps(27), blink 0.4s step-end 16 alternate;
+    animation: typewriter 2s steps(27), blink 0.4s step-end 16 alternate;
     white-space: nowrap;
     overflow: hidden;
 }
 
-@keyframes typing {
+@keyframes typewriter {
     from {
         width: 0;
     }
@@ -99,6 +99,20 @@ body {
 
     height: 80px;
     max-height: 11vh;
+}
+
+.fade-in {
+    font-family: monospace;
+    animation: fade-in 7s;
+}
+  
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .redirect-button {
