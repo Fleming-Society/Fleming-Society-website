@@ -1,150 +1,180 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fleming Society Website 2023</title>
-    <link rel="stylesheet" href="static/styles/executives.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="header">
-      <nav>
-        <div class="nav-logo">
-          <a href="index.html">UCL Fleming Society</a>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-        <div class="nav-links" id="nav-Links" style="display: block">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="bounties.html">Bounties</a></li>
-            <li><a href="executives.html">Executives</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="wrapper">
-        <h1>Our People</h1>
-      </div>
 
-      <div class="subtitle">
-        <p>Leads</p>
-      </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <div class="wrappercard">
-        <div class="card">
-          <img src="static/images/avatars/junzhe.png" style="width: 100%" />
-          <h2>Junzhe Chen</h2>
-          <div class="mask" , title="你知道的太多了">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              >高质量免费劳动力，点这里白嫖</a
-            >
-          </div>
-          <h3>President</h3>
-          <a href="https://www.linkedin.com/in/junzhe-chen/" class="link"
-            >Linkedin</a
-          >
-          <p>junzhe.chen.22@ucl.ac.uk</p>
+        <title>Fleming Society: Executives</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap">
+        <link rel="stylesheet" href="./static/styles/layout.css">
+        <link rel="stylesheet" href="./static/styles/executives.css">
+    </head>
+
+    <body>
+        <div class="container-page">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">UCL Fleming Society</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./bounties.html">Bounties</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Executives</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-main">
+                <div class="title">
+                    <h1><b>Meet the Team</b></h1>
+                </div>
+
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="executive-class">
+                            <h3>Leadership</h3>
+        
+                            <hr>
+        
+                            <div class="executive-cards">
+                                <div class="card">
+                                    <img src="./static/images/avatars/junzhe.png" class="card-img-top" alt="Junzhe Chen">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Junzhe Chen</h5>
+                                        <p class="card-text">President</p><br>
+                                        <a href="https://www.linkedin.com/in/junzhe-chen/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:junzhe.chen.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <img src="./static/images/avatars/jeremy.jpeg" class="card-img-top" alt="Jeremy Chan">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jeremy Chan</h5>
+                                        <p class="card-text">Vice-President</p><br>
+                                        <a href="https://www.linkedin.com/in/jeremy-cs-chan/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:jeremy.chan.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="executive-class">
+                            <h3>Marketing</h3>
+        
+                            <hr>
+        
+                            <div class="executive-cards">
+                                <div class="card">
+                                    <img src="./static/images/avatars/bernardo.jpg" class="card-img-top" alt="Bernardo Awtani">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bernardo Awtani</h5>
+                                        <p class="card-text">Social Media and Events Manager</p>
+                                        <a href="https://www.linkedin.com/in/luis-awtani-257251223/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:luis.awtani.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <img src="./static/images/avatars/joshua.jpg" class="card-img-top" alt="Joshua Liao">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Joshua Liao</h5>
+                                        <p class="card-text">Social Media and Events Manager</p>
+                                        <a href="https://www.linkedin.com/in/joshua-liao-050159295/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:juhua.liao.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <img src="./static/images/avatars/sans.jpeg" class="card-img-top" alt="Chang (Sans) Xu">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chang (Sans) Xu</h5>
+                                        <p class="card-text">Photograph and Video Editor</p>
+                                        <a href="mailto:chang.xu.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="executive-class">
+                            <h3>Engineering</h3>
+                            
+                            <hr>
+        
+                            <div class="executive-cards">
+                                <div class="card">
+                                    <img src="./static/images/avatars/steven.png" class="card-img-top" alt="Yuxuan Han">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Yuxuan Han</h5>
+                                        <p class="card-text">Project Manager</p><br>
+                                        <a href="https://www.linkedin.com/in/yuxuanhan/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:yuxuan.han.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <img src="./static/images/avatars/ziqi.jpg" class="card-img-top" alt="Ziqi Zhang">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ziqi Zhang</h5>
+                                        <p class="card-text">Project and Outreach Manager</p>
+                                        <a href="https://www.linkedin.com/in/ziqi-zhang-305231224/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:ziqi.zhang.21@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <img src="./static/images/avatars/louis.jpg" class="card-img-top" alt="Louis Kwok">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Louis Kwok</h5>
+                                        <p class="card-text">Web Developer</p><br>
+                                        <a href="https://www.linkedin.com/in/louiskwok2004/" target="_blank">Linkedin</a>
+                                        |
+                                        <a href="mailto:louis.kwok.22@ucl.ac.uk">Email</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="carousel-control-prev-text">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-text">Next</span>
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-          <img src="static/images/avatars/jeremy.jpeg" style="width: 100%" />
-          <h2>Jeremy Chan</h2>
-          <h3>Vice-President</h3>
-          <a href="https://www.linkedin.com/in/jeremy-cs-chan" class="link"
-            >Linkedin</a
-          >
-          <p>jeremy.chan.22@ucl.ac.uk</p>
-        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
 
-        <div class="subtitle">
-          <p>Marketing</p>
-        </div>
-
-        <div class="card">
-          <img src="static/images/avatars/bernardo.jpg" style="width: 100%" />
-          <h2>Bernardo Awtani</h2>
-          <h3>Social Media and Events Manager</h3>
-          <a
-            href="https://www.linkedin.com/in/luis-awtani-257251223/"
-            class="link"
-            >Linkedin</a
-          >
-          <p>luis.awtani.22@ucl.ac.uk</p>
-        </div>
-
-        <div class="card">
-          <img
-            src="static/images/avatars/joshua.jpg"
-            style="width: 100%"
-          />
-          <h2>Joshua Liao</h2>
-          <h3>Social Media and Events Manager</h3>
-          <a href="" class="link">Linkedin</a>
-          <p>juhua.liao.22@ucl.ac.uk</p>
-        </div>
-
-        <div class="card">
-          <img
-            src="static/images/avatars/sans.jpeg"
-            style="width: 100%"
-          />
-          <h2>Chang (Sans) Xu</h2>
-          <h3>Photograph and Video Editor</h3>
-          <a href="" class="link">Linkedin</a>
-          <p>chang.xu.22@ucl.ac.uk</p>
-        </div>
-
-        <div class="subtitle">
-          <p>Projects</p>
-        </div>
-
-        <div class="card">
-          <img src="static/images/avatars/steven.png" style="width: 100%" />
-          <h2>Yuxuan Han</h2>
-          <h3>Project Manager</h3>
-          <a href="https://www.linkedin.com/in/yuxuanhan" class="link"
-            >Linkedin</a
-          >
-          <p>yuxuan.han.22@ucl.ac.uk</p>
-        </div>
-        <div class="card">
-          <img src="static/images/avatars/ziqi.jpg" style="width: 100%" />
-          <h2>Ziqi Zhang</h2>
-          <h3>Project and Outreach Manager</h3>
-          <a
-            href="https://www.linkedin.com/in/ziqi-zhang-305231224/"
-            class="link"
-            >Linkedin</a
-          >
-          <p>ziqi.zhang.21@ucl.ac.uk</p>
-        </div>
-        <div class="card" style="width: 125%">
-          <img src="static/images/avatars/louis.jpg" style="width: 100%" />
-          <h2>Louis Kwok</h2>
-          <h3>Website Developer</h3>
-          <a
-            href="https://www.linkedin.com/in/louiskwok2004/"
-            class="link"
-            >Linkedin</a
-          >
-          <p>louis.kwok.22@ucl.ac.uk</p>
-        </div>
-      </div>
-    </section>
-    <script>
-      function showMenu() {
-        var navLinks = document.getElementById("nav-Links");
-        if (!navLinks.classList.contains("show")) {
-          navLinks.style.right = "0";
-          navLinks.classList.add("show");
-        } else {
-          navLinks.style.right = "-200%";
-          navLinks.classList.remove("show");
-        }
-      }
-    </script>
-  </body>
 </html>
