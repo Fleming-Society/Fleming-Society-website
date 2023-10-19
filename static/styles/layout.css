@@ -44,13 +44,17 @@ body {
     margin-right: 25px;
 }
 
-.title {
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 250px;
+    height: 300px;
     max-height: 42vh;
+}
+
+.title {
+    font-weight: bold;
 }
 
 .typewriter {
@@ -73,16 +77,21 @@ body {
     }
 }
 
-.subtitle {
+.container-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 80px;
     max-height: 11vh;
+    margin-top: 2%;
 }
 
-.announcement {
+.subtitle {
+    font-weight: bold;
+}
+
+.container-announcement {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,13 +101,19 @@ body {
     color: #280485;
 }
 
-.redirect {
+.announcement {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-redirect {
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 80px;
     max-height: 11vh;
+    margin-top: 1%;
 }
 
 .fade-in {
