@@ -49,7 +49,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 300px;
+    height: 250px;
     max-height: 42vh;
 }
 
@@ -79,4 +79,11 @@ body {
 
     height: 80px;
     max-height: 11vh;
+}
+
+.redirect-button {
+    background: rgb(235, 235, 235);
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
 }
