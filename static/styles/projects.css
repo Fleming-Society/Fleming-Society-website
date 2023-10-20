@@ -1,10 +1,12 @@
-.container-page {
-  height: 100%;
-}
-
-.projects {
+.container-projects {
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin-top: 5%;
+}
+
+.table {
+  width: 95%;
 }
 
 .project-id-column {
@@ -31,4 +33,3 @@
 .project-description {
   text-align: left;
 }
-
