@@ -11,10 +11,21 @@
     background-attachment: fixed;
 }
 
+.announcement {
+    color: white;
+}
+
 .bounty-banner {
-    width: 213.8px;
-    height: 53.2px;
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
     margin: 1% 0;
+}
+
+@media (max-width: 768px) {
+    .bounty-banner {
+        width: 80%;
+    }
 }
 
 .bounty-stars {
