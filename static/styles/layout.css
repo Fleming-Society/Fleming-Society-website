@@ -120,10 +120,11 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .typewriter {
-    white-space: wrap;
+    white-space: normal;
     animation: none;
+    overflow: none;
   }
 }
 
