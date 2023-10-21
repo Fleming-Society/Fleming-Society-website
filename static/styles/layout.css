@@ -88,7 +88,7 @@ body {
 .sidenav-close {
   text-align: center;
 
-  margin-top: 30px;
+  margin-top: 50px;
   text-decoration: none;
   font-size: 15px;
   color: #818181;
@@ -108,11 +108,11 @@ body {
 
 .title {
   font-weight: bold;
+  font-size: 50px;
 }
 
 .typewriter {
   width: 27ch;
-  font-size: 50px;
   animation: typewriter 2s steps(27), blink 0.4s step-end 16 alternate;
   border-right: solid 2px transparent;
   white-space: nowrap;
