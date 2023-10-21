@@ -72,18 +72,19 @@
 
                 <div class="bounty-papers">
                     <div class="bounty-paper">
+                        <img class="bounty-thumbnail" id="thumbnail-1" src="./static/images/bounty-thumbnails/mug.png">
                         <h3 class="bounty-title" id="title-1">Smart Mug Mat</h3>
                         <ul class="bounty-details" id="details-1">
-                            <li>Build a custom mechanical keyboard using MCU</li>
-                            <li>Must have 250Hz or above polling rate</li>
-                            <li>Must have more than 3x3 keys layout</li>
-                            <li>No key conflict when pressing multiple keys at the same time</li>
-                            <li>OLED status bar and Rotary Encoder will be a plus</li>
+                            <li>Calculate how much water you drink each day</li>
+                            <li>ESP32 connects to the app to show a weekly report</li>
+                            <li>Remind the user to drink water when detecting the user hasn't drunk any water for 3
+                                hours</li>
                         </ul>
                         <button class="bounty-flip-button" id="button-1">See Details</button>
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-2" src="...">
                         <h3 class="bounty-title" id="title-2">Coming Soon</h3>
                         <ul class="bounty-details" id="details-2">
                         </ul>
@@ -91,6 +92,7 @@
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-3" src="...">
                         <h3 class="bounty-title" id="title-3">Coming Soon</h3>
                         <ul class="bounty-details" id="details-3">
                         </ul>
@@ -105,24 +107,20 @@
 
                 <div class="bounty-papers">
                     <div class="bounty-paper">
+                        <img class="bounty-thumbnail" id="thumbnail-4" src="./static/images/bounty-thumbnails/keyboard.png">
                         <h3 class="bounty-title" id="title-4">Mechanical Keyboard</h3>
                         <ul class="bounty-details" id="details-4">
-                            <li>Library for controlling the display</li>
-                            <li>Attach sensors to achieve certain functions, including:
-                                <ul>
-                                    <li>A temperature sensor (able to measure oil temp up to 300 degrees)</li>
-                                    <li>A CO2 sensor</li>
-                                    <li>A stopwatch</li>
-                                    <li>Countdown timer</li>
-                                    <li>Laps function</li>
-                                </ul>
-                            </li>
-                            <li>Must be on a PCB</li>
+                            <li>Build a custom mechanical keyboard using MCU</li>
+                            <li>Must have 250Hz or above polling rate</li>
+                            <li>Must have more than 3x3 keys layout</li>
+                            <li>No key conflict when pressing multiple keys at the same time</li>
+                            <li>OLED status bar and Rotary Encoder will be a plus</li>
                         </ul>
                         <button class="bounty-flip-button" id="button-4">See Details</button>
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-5" src="...">
                         <h3 class="bounty-title" id="title-5">Coming Soon</h3>
                         <ul class="bounty-details" id="details-5">
 
@@ -131,6 +129,7 @@
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-6" src="...">
                         <h3 class="bounty-title" id="title-6">Coming Soon</h3>
                         <ul class="bounty-details" id="details-6">
 
@@ -145,17 +144,26 @@
 
                 <div class="bounty-papers">
                     <div class="bounty-paper">
+                        <img class="bounty-thumbnail" id="thumbnail-7" src="./static/images/bounty-thumbnails/7-segment-display.png">
                         <h3 class="bounty-title" id="title-7">7-Segment Display</h3>
                         <ul class="bounty-details" id="details-7">
-                            <li>Calculate how much water you drink each day</li>
-                            <li>ESP32 connects to the app to show a weekly report</li>
-                            <li>Remind the user to drink water when detecting the user hasn't drunk any water for 3
-                                hours</li>
+                            <li>Library for controlling the display</li>
+                            <li>Attach sensors to achieve certain functions, including:
+                                <ul>
+                                    <li>A temperature sensor (able to measure oil temp up to 300 degrees)</li>
+                                    <li>A CO2 sensor</li>
+                                    <li>A stopwatch</li>
+                                    <li>Countdown timer</li>
+                                    <li>Laps function</li>
+                                </ul>
+                            </li>
+                            <li>Must be on a PCB</li>
                         </ul>
                         <button class="bounty-flip-button" id="button-7">See Details</button>
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-8" src="...">
                         <h3 class="bounty-title" id="title-8">Coming Soon</h3>
                         <ul class="bounty-details" id="details-8">
 
@@ -164,6 +172,7 @@
                     </div>
 
                     <div class="bounty-paper" style="display: none;">
+                        <img class="bounty-thumbnail" id="thumbnail-9" src="...">
                         <h3 class="bounty-title" id="title-9">Coming Soon</h3>
                         <ul class="bounty-details" id="details-9">
 
@@ -210,11 +219,13 @@
         for (let i = 0; i < flipButtons.length; i++) {
             flipButtons[i].addEventListener("click", function () {
                 if (document.getElementById("title-" + (i + 1)).style.display !== "none") {
+                    document.getElementById("thumbnail-" + (i + 1)).style.display = "none";
                     document.getElementById("title-" + (i + 1)).style.display = "none";
                     document.getElementById("details-" + (i + 1)).style.display = "block";
                     flipButtons[i].innerHTML = "Go Back";
                 }
                 else {
+                    document.getElementById("thumbnail-" + (i + 1)).style.display = "inline";
                     document.getElementById("title-" + (i + 1)).style.display = "block";
                     document.getElementById("details-" + (i + 1)).style.display = "none";
                     flipButtons[i].innerHTML = "See Details";
