@@ -1,205 +1,205 @@
 body {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 .container-page {
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/backgrounds/background-full-page.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/backgrounds/background-full-page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container-main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: 100%;
-    height: 92%;
+  width: 100%;
+  height: 92%;
 }
 
 .custom-navbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-brand {
-    margin-left: 5%;
-    font-family: 'roboto slab', serif;
+  margin-left: 5%;
+  font-family: "roboto slab", serif;
 }
 
 .navbar-nav {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 
-    padding: 0 4%;
-    background-color: #2b3035;
-    border-radius: 10px;
-    font-family: 'roboto slab', serif;
+  padding: 0 4%;
+  background-color: #2b3035;
+  border-radius: 10px;
+  font-family: "roboto slab", serif;
 }
 
 .nav-link {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .navbar-toggle {
-    font-size: 30px;
-    color: white;
-    margin-right: 15px;
+  font-size: 30px;
+  color: white;
+  margin-right: 15px;
 }
 
 .navbar-toggle:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sidenav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #010101;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #010101;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidenav .nav-item {
-    margin-top: 30px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    font-family: 'roboto slab', serif;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: "roboto slab", serif;
 }
 
 .sidenav .nav-link {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .sidenav-close {
-    text-align: center;
+  text-align: center;
 
-    margin-top: 30px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 .container-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    height: 300px;
-    max-height: 42vh;
+  height: 300px;
+  max-height: 42vh;
 }
 
 .title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .typewriter {
-    width: 27ch;
-    font-size: 50px;
-    animation: typewriter 2s steps(27), blink 0.4s step-end 16 alternate;
-    border-right: solid 2px transparent;
-    white-space: nowrap;
-    overflow: hidden;
+  width: 27ch;
+  font-size: 50px;
+  animation: typewriter 2s steps(27), blink 0.4s step-end 16 alternate;
+  border-right: solid 2px transparent;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
-    .typewriter {
-        white-space: wrap;
-        animation: none;
-    }
+  .typewriter {
+    white-space: wrap;
+    animation: none;
+  }
 }
 
 @keyframes typewriter {
-    from {
-        width: 0;
-    }
+  from {
+    width: 0;
+  }
 }
-  
+
 @keyframes blink {
-    50% {
-        border-color: black;
-    }
+  50% {
+    border-color: black;
+  }
 }
 
 .container-subtitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    height: 80px;
-    max-height: 11vh;
-    margin-top: 2%;
+  height: 80px;
+  max-height: 11vh;
+  margin-top: 2%;
 }
 
 .subtitle {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .container-announcement {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    height: 80px;
-    max-height: 11vh;
-    color: #280485;
+  height: 80px;
+  max-height: 11vh;
+  color: #280485;
 }
 
 .announcement {
-    font-weight: bold;
-    font-style: italic;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .container-redirect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    height: 80px;
-    max-height: 11vh;
-    margin-top: 1%;
+  height: 80px;
+  max-height: 11vh;
+  margin-top: 1%;
 }
 
 .fade-in {
-    font-family: monospace;
-    animation: fade-in 7s;
+  font-family: monospace;
+  animation: fade-in 7s;
 }
-  
+
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .redirect-button {
-    background: #EBEBEB;
-    border: 1px solid black;
-    padding: 10px 20px;
+  background: #ebebeb;
+  border: 1px solid black;
+  padding: 10px 20px;
 }
 
 .redirect-button:hover {
-    background: #B2B2B2;
-    cursor: pointer;
+  background: #b2b2b2;
+  cursor: pointer;
 }
