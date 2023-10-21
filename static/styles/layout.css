@@ -96,6 +96,10 @@ body {
   transition: 0.3s;
 }
 
+.sidenav-close:hover {
+  cursor: pointer;
+}
+
 .container-title {
   display: flex;
   justify-content: center;
