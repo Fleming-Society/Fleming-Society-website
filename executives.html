@@ -1,123 +1,115 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fleming Society Website 2023</title>
-    <link rel="stylesheet" href="static/styles/executives.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fleming Society: Layout</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap">
+    <link rel="stylesheet" href="./static/styles/layout.css">
+    <link rel="stylesheet" href="./static/styles/executives.css">
 </head>
 
 <body>
-    <section class="header">
-        <nav>
-            <div class="nav-logo">
-                <a href="index.html">UCL Fleming Society</a>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-            <div class="nav-links" id="nav-Links" style="display: block">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="bounties.html">Bounties</a></li>
-                    <li><a href="executives.html">Executives</a></li>
-                </ul>
+    <div class="container-page">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">UCL Fleming Society</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./bounties.html">Bounties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./executives.html">Executives</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navbar-toggle" id="openNav">&#9776;</span>
             </div>
         </nav>
-        <div class="wrapper">
-            <h1>Our People</h1>
-        </div>
 
-        <div class="subtitle">
-            <p>Leads</p>
-        </div>
+        <nav id="sideNav" class="sidenav">
+            <div class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="./bounties.html">Bounties</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="./executives.html">Executives</a>
+            </div>
+            <span class="sidenav-close">&times; Close &times;</span>
+        </nav>
 
-        <div class="wrappercard">
-            <div class="card">
-                <img src="static/images/avatars/junzhe.png" style="width: 100%" />
-                <h2>Junzhe Chen</h2>
-                <div class="mask" , title="你知道的太多了">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">高质量免费劳动力，点这里白嫖</a>
-                </div>
-                <h3>President</h3>
-                <a href="https://www.linkedin.com/in/junzhe-chen/" class="link">Linkedin</a>
-                <p>junzhe.chen.22@ucl.ac.uk</p>
+        <div class="container-main">
+            <div class="container-title">
+                <h1 class="title typewriter">Title</h1>
             </div>
 
-            <div class="card">
-                <img src="static/images/avatars/jeremy.jpeg" style="width: 100%" />
-                <h2>Jeremy Chan</h2>
-                <h3>Vice-President</h3>
-                <a href="https://www.linkedin.com/in/jeremy-cs-chan" class="link">Linkedin</a>
-                <p>jeremy.chan.22@ucl.ac.uk</p>
+            <div class="container-subtitle">
+                <h5 class="subtitle fade-in">Subtitle</h5>
             </div>
 
-            <div class="subtitle">
-                <p>Marketing</p>
+            <div class="container-announcement">
+                <h5 class="announcement fade-in">Announcement</h5>
             </div>
 
-            <div class="card">
-                <img src="static/images/avatars/bernardo.jpg" style="width: 100%" />
-                <h2>Bernardo Awtani</h2>
-                <h3>Social Media and Events Manager</h3>
-                <a href="https://www.linkedin.com/in/luis-awtani-257251223/" class="link">Linkedin</a>
-                <p>luis.awtani.22@ucl.ac.uk</p>
-            </div>
-
-            <div class="card">
-                <img src="static/images/avatars/joshua.jpg" style="width: 100%" />
-                <h2>Joshua Liao</h2>
-                <h3>Social Media and Events Manager</h3>
-                <a href="" class="link">Linkedin</a>
-                <p>juhua.liao.22@ucl.ac.uk</p>
-            </div>
-
-            <div class="card">
-                <img src="static/images/avatars/sans.jpeg" style="width: 100%" />
-                <h2>Chang (Sans) Xu</h2>
-                <h3>Photograph and Video Editor</h3>
-                <a href="" class="link">Linkedin</a>
-                <p>chang.xu.22@ucl.ac.uk</p>
-            </div>
-
-            <div class="subtitle">
-                <p>Projects</p>
-            </div>
-
-            <div class="card">
-                <img src="static/images/avatars/steven.png" style="width: 100%" />
-                <h2>Yuxuan Han</h2>
-                <h3>Project Manager</h3>
-                <a href="https://www.linkedin.com/in/yuxuanhan" class="link">Linkedin</a>
-                <p>yuxuan.han.22@ucl.ac.uk</p>
-            </div>
-            <div class="card">
-                <img src="static/images/avatars/ziqi.jpg" style="width: 100%" />
-                <h2>Ziqi Zhang</h2>
-                <h3>Project and Outreach Manager</h3>
-                <a href="https://www.linkedin.com/in/ziqi-zhang-305231224/" class="link">Linkedin</a>
-                <p>ziqi.zhang.21@ucl.ac.uk</p>
-            </div>
-            <div class="card" style="width: 125%">
-                <img src="static/images/avatars/louis.jpg" style="width: 100%" />
-                <h2>Louis Kwok</h2>
-                <h3>Website Developer</h3>
-                <a href="https://www.linkedin.com/in/louiskwok2004/" class="link">Linkedin</a>
-                <p>louis.kwok.22@ucl.ac.uk</p>
+            <div class="container-redirect">
+                <button class="fade-in redirect-button">Redirect</button>
             </div>
         </div>
-    </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
     <script>
-        function showMenu() {
-            var navLinks = document.getElementById("nav-Links");
-            if (!navLinks.classList.contains("show")) {
-                navLinks.style.right = "0";
-                navLinks.classList.add("show");
-            } else {
-                navLinks.style.right = "-200%";
-                navLinks.classList.remove("show");
+        var redirectButton = document.getElementsByClassName('redirect-button');
+
+        redirectButton[0].addEventListener("click", function () {
+            window.location.href = "bounties.html";
+        });
+    </script>
+
+    <script>
+        var toggleButton = document.getElementsByClassName("navbar-toggle")[0];
+
+        toggleButton.addEventListener("click", function () {
+            toggleButtonState = toggleButton.id;
+            if (toggleButtonState === "openNav") {
+                document.getElementById("sideNav").style.width = "100%";
+                toggleButton.id = "closeNav";
             }
-        }
+            else {
+                document.getElementById("sideNav").style.width = "0";
+                toggleButton.id = "openNav";
+            }
+        });
+    </script>
+
+    <script>
+        var closeButton = document.getElementsByClassName("sidenav-close")[0];
+
+        closeButton.addEventListener("click", function () {
+            document.getElementById("sideNav").style.width = "0";
+            document.getElementsByClassName("navbar-toggle")[0].id = "openNav";
+        });
     </script>
 </body>
 
