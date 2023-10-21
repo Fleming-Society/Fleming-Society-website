@@ -181,6 +181,10 @@ body {
   margin-top: 1%;
 }
 
+.redirect-button {
+  color: black;
+}
+
 .fade-in {
   font-family: monospace;
   animation: fade-in 7s;
