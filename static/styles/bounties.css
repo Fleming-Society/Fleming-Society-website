@@ -9,6 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 30px;
 }
 
 .announcement {
@@ -37,8 +38,8 @@
 }
 
 .bounty-star {
-  width: 5%;
-  height: 5%;
+  width: 70px;
+  height: 70px;
   margin: 1% 0;
 }
 
@@ -50,32 +51,38 @@
   width: 100%;
 }
 
-.bounty-paper {
-  position: relative;
+@media (max-width: 1200px) {
+  .bounty-papers {
+    flex-direction: column;
+  }
+}
 
-  width: 25%;
-  margin: 1% 2%;
+.bounty-paper {
+  text-align: center;
+
+  width: 378px;
+  height: 315px;
   background-image: url("../images/elements/bounty-paper.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 12.5%;
+  margin: 0 3%;
+}
+
+@media (max-width: 1200px) {
+  .bounty-paper {
+    width: 294px;
+    height: 245px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .bounty-title {
-  display: flex;
-  justify-content: center;
-
-  margin-top: 20%;
-  width: 100%;
-  height: 20%;
+  margin-top: 70px;
 }
 
-.bounty-thumbnail {
-  max-width: 60%;
-  max-height: 60%;
-  position: absolute;
-  margin-top: 30%;
-  margin-left: 25%;
-  top: 0;
-  left: 0;
+@media (max-width: 1200px) {
+  .bounty-title {
+    margin-top: 60px;
+  }
 }
