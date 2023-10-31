@@ -104,7 +104,7 @@
 
 .bounty-details {
   display: none;
-  
+  text-align: start;
   padding-top: 5%;
 }
 
