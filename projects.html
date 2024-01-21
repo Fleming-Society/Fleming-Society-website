@@ -58,11 +58,29 @@
 
         <div class="container-main">
             <div class="container-title">
-                <h1 class="title"><b>Past Student Projects</b></h1>
+                <h1 class="title"><b>Personal Projects</b></h1>
+            </div>
+
+            <div class="container-form">
+                <form class="form" action="https://formspree.io/your_email@example.com" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="project">Project Name:</label>
+                    <input type="text" id="project" name="project" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <input type="submit" value="Submit">
+                </form>
             </div>
 
             <div class="container-redirect">
-                <button class="redirect-button">Get rewarded while doing projects!</button>
+                <b>Check out past projects done by EEE students below!</b>
             </div>
 
             <div class="container-projects">
